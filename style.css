@@ -46,10 +46,11 @@ a{
     margin: 0%;
     padding: 0%;
 }
-img{
+image-header{
     width: auto;
     height: 250px;
     flex-shrink: 1;
+    border-radius: 8px;
 }
 .header-bottom{
     display: flex;
@@ -60,4 +61,28 @@ img{
     flex-direction: column;
     gap: 20px;
 }
-/*  */
+/*this is the body */
+.image-body{
+    width: auto;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    background-color: aqua;
+}
+.information-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px 0;
+}
+.random-information{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+.info-container{
+    max-width: 200px;
+}
+
