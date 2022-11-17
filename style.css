@@ -1,3 +1,7 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
 /* this is the header */
 .header-container{
     background-color: #1f2937;
@@ -22,7 +26,8 @@
 button{
     background-color: #3882f6;
     flex-grow: 0;
-    width: 100px;
+    width: 150px;
+    height: fit-content;
     padding: 10px;
     border-radius: 8px;
     color: white;
@@ -61,7 +66,7 @@ image-header{
     flex-direction: column;
     gap: 20px;
 }
-/*this is the body */
+/*this is the first part of the body */
 .image-body{
     width: auto;
     height: 200px;
@@ -81,8 +86,50 @@ image-header{
     justify-content: center;
     text-align: center;
     gap: 40px;
+    padding-bottom: 70px;
 }
 .info-container{
     max-width: 200px;
 }
+/* This is the second part of the body */
+.quote-container{
+    background-color: #e5e7eb;
+    height: 300px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column  wrap;
+    margin-top: 30px;
+    gap: 10px;
+    padding: 0px 150px;
 
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    columns: #1f2937;
+    max-width: fit-content;
+}
+.author{
+    font-weight: 700;
+    font-size: 20px;
+    align-self: flex-end;
+}
+/* This is the third part of the body */
+.third-body{
+    background-color: #3882f6;
+    margin: 100px 50px;
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 16px;
+    /* max-width: 3000px; */
+    align-self: center;
+    gap: 150px;
+    width: max-content;
+
+}
+.third-body button{
+    border-color: rgb(255, 255, 255);
+
+}
